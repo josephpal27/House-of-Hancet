@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts Start */
+@font-face {
+    font-family: Ophelia;
+    src: url(../fonts/OPHELIA.otf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+/* Fonts End */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ophelia, sans-serif;
+}
+
+/* Navbar Start */
+.navbar {
+    background: transparent;
+    padding: 2rem 5% 0 5%;
+    position: absolute;
+    width: 100%;
+    align-items: start;
+    z-index: 10;
+}
+.navbar .navbar-brand img {
+    width: 130px;
+}
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: calc(0.65rem + 0.5vw);
+    padding: 0.6rem 0.5rem !important;
+    border-radius: 30px;
+    margin-left: 4rem;
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 550;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .navbar {
+        padding: 0.9rem 7%;
+    }
+    .navbar .navbar-brand img {
+        width: 65px;
+    }
+    .navbar .nav-link {
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 0.55rem 1.3rem !important;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .navbar {
+        padding: 0.75rem 7%;
+    }
+    .navbar .navbar-brand img {
+        width: 60px;
+    }
+    .navbar .nav-link {
+        font-size: calc(0.55rem + 0.5vw);
+        padding: 0.5rem 1.2rem !important;
+        margin-right: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1rem 1rem;
+    }
+    .navbar .navbar-brand img {
+        width: 50px;
+    }
+    .navbar-toggler{
+        border: none;
+        outline: none;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    #mobileMenu{
+        width: 75%;
+    }
+}
+/* Navbar End */
+
+/* Banner Start */
+.home-banner{
+    position: relative;
+}
+.home-banner img{
+    width: 100%;
+}
+.home-banner .banner-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 10rem 5% 0 5%;
+}
+.home-banner .banner-content h1{
+    text-align: end;
+    color: #fff;
+    font-size: calc(4.5rem + 0.5vw);
+}
+.home-banner .banner-content p{
+    text-align: end;
+    color: #fff;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 1.5rem;
+    width: 28%;
+    margin-left: auto;
+}
+/* Banner End */
