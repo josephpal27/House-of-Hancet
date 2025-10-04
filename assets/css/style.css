@@ -132,3 +132,78 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto;
 }
 /* Banner End */
+
+/* Our Services Start */
+.our-services{
+    padding: 5rem 5%;
+    background-image: url(../images/our-services-bg.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.our-services .beam-image img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 57%;
+}
+.our-services .our-services-cards-row{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.our-services-cards-row .service-card{
+    width: 48.3%;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #573823;
+    margin-bottom: 1.8rem;
+    z-index: 10;
+}
+.our-services-cards-row .service-card .card-content{
+    width: 55%;
+    color: #fff;
+}
+.our-services-cards-row .service-card .card-content span{
+    display: block;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: calc(0.55rem + 0.5vw);
+    font-weight: 800;
+}
+.our-services-cards-row .service-card .card-content .colored{
+    font-weight: 400;
+    color: #d6aa78;
+}
+.our-services-cards-row .service-card .card-content p{
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: calc(0.25rem + 0.5vw);
+    font-weight: 400;
+    margin: 0;
+    margin-top: 0.7rem;
+}
+.our-services-cards-row .service-card .card-image{
+    width: 42%;
+    display: flex;
+    align-items: center;
+}
+.our-services-cards-row .service-card .card-image img{
+    width: 100%;
+}
+.our-services-content h2{
+    margin-top: 5rem;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 600;
+    color: #573823;
+}
+.our-services-content span{
+    display: block;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 500;
+    color: #b28c5f;
+    font-family: Montserrat-Regular, sans-serif;
+    margin-top: -0.5rem;
+}
+/* Our Services End */
