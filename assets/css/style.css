@@ -207,3 +207,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -0.5rem;
 }
 /* Our Services End */
+
+/* Gallery Start */
+.gallery{
+    padding: 5rem 5%;
+    background: linear-gradient(to bottom, #f0ece7 25%, #b7aea8 100%);
+    min-height: 100vh;
+}
+.gallery h3{
+    color: #9d794d;
+    font-size: calc(4rem + 0.5vw);
+    text-align: center;
+}
+/* Gallery End */
