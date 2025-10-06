@@ -236,11 +236,52 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    .our-services{
+        padding: 4.5rem 5%;
+    }
+    .our-services-cards-row .service-card{
+        padding: 0.9rem;
+        margin-bottom: 1.6rem;
+    }
+    .our-services-cards-row .service-card .card-content span{
+        font-size: calc(0.5rem + 0.5vw);
+    }
+    .our-services-cards-row .service-card .card-content p{
+        font-size: calc(0.23rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .our-services-content h2{
+        margin-top: 5rem;
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .our-services-content span{
+        font-size: calc(3rem + 0.5vw);
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    .our-services{
+        padding: 4rem 5%;
+    }
+    .our-services-cards-row .service-card{
+        padding: 0.8rem;
+        margin-bottom: 1.35rem;
+        border-radius: 17px;
+    }
+    .our-services-cards-row .service-card .card-content span{
+        font-size: calc(0.45rem + 0.5vw);
+    }
+    .our-services-cards-row .service-card .card-content p{
+        font-size: calc(0.2rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .our-services-content h2{
+        margin-top: 5rem;
+        font-size: calc(3rem + 0.5vw);
+    }
+    .our-services-content span{
+        font-size: calc(2.5rem + 0.5vw);
+    }
 }
 /* Our Services End */
 
