@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-size: calc(0.65rem + 0.5vw);
     padding: 0.6rem 0.5rem !important;
-    border-radius: 30px;
     margin-left: 4rem;
     font-family: Montserrat-Regular, sans-serif;
     font-weight: 550;
@@ -49,29 +48,29 @@ h1, h2, h3, h4, h5, h6 {
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .navbar {
-        padding: 0.9rem 7%;
+        padding: 1.8rem 5% 0 5%;
     }
     .navbar .navbar-brand img {
-        width: 65px;
+        width: 120px;
     }
     .navbar .nav-link {
         font-size: calc(0.6rem + 0.5vw);
-        padding: 0.55rem 1.3rem !important;
-        margin-right: 1rem;
+        padding: 0.5rem 0.5rem !important;
+        margin-left: 3.5rem;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .navbar {
-        padding: 0.75rem 7%;
+        padding: 1.6rem 5% 0 5%;
     }
     .navbar .navbar-brand img {
-        width: 60px;
+        width: 105px;
     }
     .navbar .nav-link {
         font-size: calc(0.55rem + 0.5vw);
-        padding: 0.5rem 1.2rem !important;
-        margin-right: 0.9rem;
+        padding: 0.5rem 0.5rem !important;
+        margin-left: 3rem;
     }
 }
 
@@ -130,6 +129,34 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5rem;
     width: 28%;
     margin-left: auto;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .home-banner .banner-content{
+        padding: 9rem 5% 0 5%;
+    }
+    .home-banner .banner-content h1{
+        font-size: calc(4rem + 0.5vw);
+    }
+    .home-banner .banner-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .home-banner .banner-content{
+        padding: 8rem 5% 0 5%;
+    }
+    .home-banner .banner-content h1{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .home-banner .banner-content p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 1.3rem;
+        width: 30%;
+    }
 }
 /* Banner End */
 
