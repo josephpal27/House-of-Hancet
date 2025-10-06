@@ -89,4 +89,72 @@
 .services-banner-cards .serv-card .btn-row button:hover{
     background-color: #69442b;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .services-banner-content h1{
+        font-size: calc(4rem + 0.5vw);
+    }
+    .services-banner-content p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+
+    .services-banner-cards{
+        padding: 0 0 13rem 0;
+    }
+    .services-banner-cards .serv-card{
+        padding: 1.6rem;
+        box-shadow: #d48c5c 4.5px 4.5px 20px 0px inset, #face75 -4.5px -4.5px 20px 1px inset;
+    }
+    .services-banner-cards .serv-card h2{
+        margin-top: 1.8rem;
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .services-banner-cards .serv-card span{
+        margin-top: 0.8rem;
+        font-size: calc(0.27rem + 0.5vw);
+    }
+    .services-banner-cards .serv-card p{
+        margin-top: 0.8rem;
+        font-size: calc(0.24rem + 0.5vw);
+    }
+    .services-banner-cards .serv-card .btn-row button{
+        padding: 0.8rem 1rem;
+        font-size: calc(0.22rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .services-banner-content h1{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .services-banner-content p{
+        font-size: calc(0.5rem + 0.5vw);
+    }
+
+    .services-banner-cards{
+        padding: 0 0 11rem 0;
+    }
+    .services-banner-cards .serv-card{
+        padding: 1.3rem;
+        box-shadow: #d48c5c 4px 4px 17px 0px inset, #face75 -4px -4px 17px 1px inset;
+        border-radius: 35px;
+    }
+    .services-banner-cards .serv-card h2{
+        margin-top: 1.5rem;
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .services-banner-cards .serv-card span{
+        margin-top: 0.6rem;
+        font-size: calc(0.23rem + 0.5vw);
+    }
+    .services-banner-cards .serv-card p{
+        margin-top: 0.6rem;
+        font-size: calc(0.2rem + 0.5vw);
+    }
+    .services-banner-cards .serv-card .btn-row button{
+        padding: 0.65rem 0.8rem;
+        font-size: calc(0.21rem + 0.5vw);
+    }
+}
 /* Banner End */
