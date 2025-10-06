@@ -314,3 +314,95 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 /* Features End */
+
+/* Footer Start */
+footer{
+    background-color: #3a322b;
+    padding: 6rem 5% 5rem 5%;
+}
+footer .foot-logo img{
+    width: 130px;
+}
+footer .foot-content{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .foot-content .content-desc{
+    width: 60%;
+}
+footer .foot-content .content-desc h4{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    margin-bottom: 2.5rem;
+}
+footer .foot-content .content-desc p,
+footer .foot-content .content-desc a{
+    color: #d6aa78;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer .foot-content .content-desc a{
+    line-height: 2;
+}
+footer .foot-content .foot-form{
+    width: 32%;
+}
+footer .foot-content .foot-form #two-inputs{
+    display: flex;
+    gap: 1rem;
+}
+footer .foot-content .foot-form .input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+footer .foot-content .foot-form label{
+    color: #d6aa78;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+footer .foot-content .foot-form input,
+footer .foot-content .foot-form textarea{
+    width: 100%;
+    color: #fff;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background-color: #8d8884;
+    padding: 0.65rem 1rem;
+}
+footer .foot-content .foot-form input:focus,
+footer .foot-content .foot-form textarea:focus{
+    background-color: #817a75;
+}
+footer .foot-content .foot-form input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}
+footer .foot-content .foot-form textarea{
+    resize: none;
+    height: 7rem;
+}
+footer .foot-content .foot-form button{
+    background-color: #9d794d;
+    color: #fff;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 0.7rem 0;
+    transition: all 0.2s ease;
+}
+footer .foot-content .foot-form button:hover{
+    background-color: #83633c;
+}
+/* Footer End */
