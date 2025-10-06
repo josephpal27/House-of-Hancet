@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer Start */
 footer{
     background-color: #3a322b;
-    padding: 6rem 5% 5rem 5%;
+    padding: 6rem 5% 4.5rem 5%;
 }
 footer .foot-logo img{
     width: 130px;
@@ -589,10 +589,92 @@ footer .foot-content .foot-form button:hover{
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    footer{
+        padding: 5.5rem 5% 4rem 5%;
+    }
+    footer .foot-logo img{
+        width: 120px;
+    }
+    footer .foot-content{
+        margin-top: 3.3rem;
+    }
+    footer .foot-content .content-desc h4{
+        font-size: calc(3.5rem + 0.5vw);
+        margin-bottom: 2.3rem;
+    }
+    footer .foot-content .content-desc p,
+    footer .foot-content .content-desc a{
+        font-size: calc(0.53rem + 0.5vw);
+    }
+    footer .foot-content .content-desc a{
+        line-height: 1.8;
+    }
+    footer .foot-content .foot-form #two-inputs{
+        gap: 0.8rem;
+    }
+    footer .foot-content .foot-form .input-box{
+        margin-bottom: 0.8rem;
+    }
+    footer .foot-content .foot-form label{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-bottom: 6px;
+    }
+    footer .foot-content .foot-form input,
+    footer .foot-content .foot-form textarea{
+        font-size: calc(0.55rem + 0.5vw);
+        padding: 0.6rem 0.7rem;
+    }
+    footer .foot-content .foot-form textarea{
+        height: 6.5rem;
+    }
+    footer .foot-content .foot-form button{
+        font-size: calc(0.55rem + 0.5vw);
+        padding: 0.65rem 0;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    footer{
+        padding: 4.8rem 5% 3rem 5%;
+    }
+    footer .foot-logo img{
+        width: 105px;
+    }
+    footer .foot-content{
+        margin-top: 3rem;
+    }
+    footer .foot-content .content-desc h4{
+        font-size: calc(3rem + 0.5vw);
+        margin-bottom: 2rem;
+    }
+    footer .foot-content .content-desc p,
+    footer .foot-content .content-desc a{
+        font-size: calc(0.46rem + 0.5vw);
+    }
+    footer .foot-content .content-desc a{
+        line-height: 1.8;
+    }
+    footer .foot-content .foot-form #two-inputs{
+        gap: 0.7rem;
+    }
+    footer .foot-content .foot-form .input-box{
+        margin-bottom: 0.7rem;
+    }
+    footer .foot-content .foot-form label{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-bottom: 5px;
+    }
+    footer .foot-content .foot-form input,
+    footer .foot-content .foot-form textarea{
+        font-size: calc(0.5rem + 0.5vw);
+        padding: 0.55rem 0.7rem;
+    }
+    footer .foot-content .foot-form textarea{
+        height: 5rem;
+    }
+    footer .foot-content .foot-form button{
+        font-size: calc(0.5rem + 0.5vw);
+        padding: 0.55rem 0;
+    }
 }
 /* Footer End */
