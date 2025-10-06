@@ -233,6 +233,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat-Regular, sans-serif;
     margin-top: -0.5rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
+}
 /* Our Services End */
 
 /* Gallery Start */
@@ -298,6 +307,15 @@ h1, h2, h3, h4, h5, h6 {
 .gallery button:hover{
     color: #83633c;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
+}
 /* Gallery End */
 
 /* Features Start */
@@ -339,6 +357,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: calc(0.5rem + 0.5vw);
     font-family: Montserrat-Regular, sans-serif;
     font-weight: 400;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
 }
 /* Features End */
 
@@ -431,5 +458,14 @@ footer .foot-content .foot-form button{
 }
 footer .foot-content .foot-form button:hover{
     background-color: #83633c;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
 }
 /* Footer End */
