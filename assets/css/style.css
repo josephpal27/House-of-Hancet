@@ -419,7 +419,6 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../images/features-bg.webp);
     background-size: cover;
     overflow: hidden;
-    min-height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -434,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 4rem;
     background: rgba(0, 0, 0, 0.155);
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(10px); /* safari support */
+    -webkit-backdrop-filter: blur(12px); /* safari support */
     border-radius: 12px;
     box-shadow: rgba(255, 255, 255, 0.947) 5px 5px 20px 0px inset, rgba(255, 255, 255, 0.815) -5px -5px 20px 1px inset;
 }
@@ -456,11 +455,44 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    .features{
+        padding: 6.5rem 5% 2rem 5%;
+    }
+    .features .feature-box{
+        margin-bottom: 3rem;
+        box-shadow: rgba(255, 255, 255, 0.947) 4.5px 4.5px 20px 0px inset, rgba(255, 255, 255, 0.815) -4.5px -4.5px 20px 1px inset;
+    }
+    .features .feature-box img{
+        width: 70px;
+    }
+    .features .feature-box:nth-child(5) img{
+        width: 90px;
+    }
+    .features .feature-box p{
+        margin-top: 1.3rem;
+        font-size: calc(0.45rem + 0.5vw);
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    .features{
+        padding: 6rem 5% 2.5rem 5%;
+    }
+    .features .feature-box{
+        margin-bottom: 2.7rem;
+        padding: 3.2rem 3rem;
+        box-shadow: rgba(255, 255, 255, 0.947) 4px 4px 20px 0px inset, rgba(255, 255, 255, 0.815) -4px -4px 20px 1px inset;
+    }
+    .features .feature-box img{
+        width: 60px;
+    }
+    .features .feature-box:nth-child(5) img{
+        width: 80px;
+    }
+    .features .feature-box p{
+        margin-top: 1.2rem;
+        font-size: calc(0.42rem + 0.5vw);
+    }
 }
 /* Features End */
 
