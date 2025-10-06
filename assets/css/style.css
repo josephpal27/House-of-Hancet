@@ -678,3 +678,75 @@ footer .foot-content .foot-form button:hover{
     }
 }
 /* Footer End */
+
+/* Back to Top Btn Start */
+.back-to-top{
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: #573823;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, background 0.3s ease;
+  scale: 0.8;
+}
+.back-to-top:hover{
+  background: #523421;
+}
+.back-to-top svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+.back-to-top circle{
+  fill: none;
+  stroke-width: 4;
+}
+.back-to-top circle.bg{
+  stroke: rgba(233, 233, 233, 0.308);
+}
+.back-to-top circle.progress{
+  stroke: #d6aa78;
+  stroke-linecap: round;
+  stroke-dasharray: 163.36;
+  stroke-dashoffset: 163.36;
+  transition: stroke-dashoffset 0.1s linear;
+}
+.back-to-top.show{
+  opacity: 1;
+  visibility: visible;
+}
+.back-to-top i{
+  position: relative;
+  font-size: 20px;
+  z-index: 2;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+  .back-to-top{
+    scale: 0.7;
+    bottom: 1.1rem;
+    right: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px){
+  .back-to-top{
+    scale: 0.6;
+    bottom: 0.8rem;
+    right: 0.8rem;
+  }
+}
+/* Back to Top Btn End */
