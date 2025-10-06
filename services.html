@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css"/>
     <!-- CSS Link -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/services.css">
 </head>
 
 <body>
@@ -45,13 +46,13 @@
         <div class="collapse navbar-collapse justify-content-end d-none d-lg-flex">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">HOME</a>
+                    <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">SERVICES</a>
+                    <a class="nav-link active" href="services.html">SERVICES</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
@@ -86,14 +87,103 @@
     <!-- Navbar End -->
 
     <!-- Banner Start -->
-    <section class="home-banner">
-        <img src="assets/images/home-banner.webp" alt="Banner" loading="eager">
-        <div class="banner-content">
-            <h1 data-aos="fade-up" data-aos-duration="1000">Designed to <br> reflect you</h1>
-            <p data-aos="fade" data-aos-duration="2000">Timeless interiors that blend beauty, function, and personal style crafted to perfection</p>
+    <section class="services-banner">
+        <div class="services-banner-content">
+            <h1>Our Services</h1>
+            <p>Providing Everything You Need</p>
+        </div>
+        <!-- Cards -->
+        <div class="services-banner-cards">
+            <div class="serv-card">
+                <img src="assets/images/services/construction-services.png" alt="Image" loading="lazy">
+                <h2>Construction <br> Services</h2>
+                <span>End-to-End Home Construction With Precision & Peace of Mind</span>
+                <p>From plot to possession, we offer complete residential construction solutions tailored to your lifestyle, budget, and vision. Our expert team of architects, engineers, and project managers ensures your home is built with structural integrity, aesthetic value, and absolute transparency all while staying on time and on budget.</p>
+                <div class="btn-row">
+                    <a href="#"><button>Explore</button></a>
+                    <a href="#"><button>Get in Touch</button></a>
+                </div>
+            </div>
+            <div class="serv-card">
+                <img src="assets/images/services/interior-design-services.png" alt="Image" loading="lazy">
+                <h2>Interior Design <br> Services</h2>
+                <span>Thoughtful Interiors That Blend Function, Elegance & Personality</span>
+                <p>Our interior design service turns empty spaces into stunning, functional environments that truly feel like home. Whether you need modular solutions or luxury detailing, our in-house designers and craftsmen deliver custom interiors that reflect your taste and are built to last.</p>
+                <div class="btn-row">
+                    <a href="#"><button>Explore</button></a>
+                    <a href="#"><button>Get in Touch</button></a>
+                </div>
+            </div>
+            <div class="serv-card">
+                <img src="assets/images/services/renovation-services.png" alt="Image" loading="lazy">
+                <h2>Renovation <br> Services</h2>
+                <span>Smart Upgrades That Transform Without Tearing Down</span>
+                <p>Revive your space without starting from scratch. We handle complete home renovations including structural upgrades, layout changes, and aesthetic enhancements to breathe new life into old walls. With minimal disruption and maximum impact, we make your home feel brand new again.</p>
+                <div class="btn-row">
+                    <a href="#"><button>Explore</button></a>
+                    <a href="#"><button>Get in Touch</button></a>
+                </div>
+            </div>
+            <div class="serv-card">
+                <img src="assets/images/services/home-automation.png" alt="Image" loading="lazy">
+                <h2>Home <br> Automation</h2>
+                <span>A home that listens, responds, and keeps you comfortable at every moment</span>
+                <p>Step into a home where comfort listens, lights respond, and security stays constant. At House of Hancet 108, home automation is about creating spaces that live and think with you. From lighting that shifts through the day to climate control that anticipates your needs, we design smart living with ease and peace of mind</p>
+                <div class="btn-row">
+                    <a href="#"><button>Explore</button></a>
+                    <a href="#"><button>Get in Touch</button></a>
+                </div>
+            </div>
         </div>
     </section> 
     <!-- Banner End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="foot-logo" data-aos="fade" data-aos-duration="1000">
+            <a href="index.html"><img src="assets/images/logo/logo-white.png" alt="logo" loading="lazy"></a>
+        </div>
+        <div class="foot-content">
+            <div class="content-desc">
+                <h4 data-aos="fade-up" data-aos-duration="1000">Let’s Build Something <br> Beautiful Together</h4>
+                <p>Whether you're dreaming of a custom-built home or a stunning interior makeover, we’re here to make it happen with expert planning, transparent execution, and design that reflects you.</p>
+                <p>​No. 126, KHB Colony Koramangala, Bangalore, <br> Karnataka, India, 560095</p>
+                <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sales@hoh108.com" target="_blank">sales@hoh108.com</a> <br> <a href="tel:9108771647">+91 91087 71647</a></p>
+            </div>
+            <div class="foot-form">
+                <form action="">
+                    <div class="input-row">
+                        <div class="input-box">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="Name" required>
+                        </div>
+                    </div>
+                    <div class="input-row" id="two-inputs">
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="phone">Phone</label>
+                            <input type="number" id="phone" name="Phone" required>
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-box">
+                            <label for="msg">Message</label>
+                            <textarea name="Message" id="msg" required></textarea>
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-box">
+                            <button type="submit">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer> 
+    <!-- Footer End -->
 
     <!-- ------------------------------------------------------------------------------------------------------------------------ -->
 
