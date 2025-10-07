@@ -190,3 +190,37 @@
     margin-left: auto;
 }
 /* Quality Guarantee End */
+
+/* Get In Touch Start */
+.get-in-touch{
+    padding: 6rem 5%;
+    background-color: #573823;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get-in-touch p{
+    color: #fff;
+    font-size: calc(0.65rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
+.get-in-touch button{
+    color: #fff;
+    font-size: calc(0.65rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 300;
+    background-color: #9b8264;
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 2rem;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+}
+.get-in-touch button:hover{
+    background-color: #907555;
+}
+/* Get In Touch End */
