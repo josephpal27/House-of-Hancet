@@ -319,6 +319,29 @@
     width: 93%;
     margin-left: auto;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .quality-guarantee .quality-content h4{
+        font-size: calc(4rem + 0.5vw);
+    }
+    .quality-guarantee .quality-content p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.8rem;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px){
+    .quality-guarantee .quality-content h4{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .quality-guarantee .quality-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.7rem;
+        width: 97%;
+    }
+}
 /* Quality Guarantee End */
 
 /* Get In Touch Start */
