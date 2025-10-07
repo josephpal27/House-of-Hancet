@@ -44,6 +44,43 @@
     text-align: center;
     margin: 0;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .about-banner .banner-content h1{
+        font-size: calc(4.5rem + 0.5vw);
+        margin-top: 7rem;
+    }
+    .about-banner .banner-content h1 span{
+        font-size: calc(3.2rem + 0.5vw);
+    }
+    .about-banner .banner-content .banner-desc{
+        padding: 2.3rem;
+        border-radius: 13px;
+        margin-top: 1.3rem;
+    }
+    .about-banner .banner-content .banner-desc p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px){
+    .about-banner .banner-content h1{
+        font-size: calc(4rem + 0.5vw);
+        margin-top: 6rem;
+    }
+    .about-banner .banner-content h1 span{
+        font-size: calc(2.8rem + 0.5vw);
+    }
+    .about-banner .banner-content .banner-desc{
+        padding: 2rem;
+        border-radius: 12px;
+        margin-top: 1.2rem;
+    }
+    .about-banner .banner-content .banner-desc p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+}
 /* Banner End */
 
 /* Our Process Start */
