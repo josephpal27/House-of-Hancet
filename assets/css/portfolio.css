@@ -34,3 +34,33 @@
     }
 }
 /* Banner End */
+
+/* Portfolio Start */
+.portfolio{
+    padding: 5rem 5%;
+    /* background-color: #6e4a32; */
+    background: linear-gradient(to bottom right, #68462f, #382112);
+}
+.portfolio .portfolio-images-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* .portfolio .portfolio-images-row img{
+    width: 31%;
+} */
+.portfolio .portfolio-images-row .portfolio-image-box{
+    width: 31.5%;
+    padding: 1.7rem;
+    background: rgba(0, 0, 0, 0.155);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); /* safari support */
+    border-radius: 30px;
+    box-shadow: #d48c5c 5px 5px 20px 0px inset, #face75 -5px -5px 20px 1px inset;
+    margin-bottom: 2.2rem;
+}
+.portfolio .portfolio-images-row .portfolio-image-box img{
+    width: 100%;
+    border-radius: 18px;
+}
+/* Portfolio End */
