@@ -59,4 +59,33 @@
     width: 100%;
     border-radius: 18px;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .portfolio{
+        padding: 4.5rem 5% 3.5rem 5%;
+    }
+    .portfolio .portfolio-images-row .portfolio-image-box{
+        padding: 1.6rem;
+        border-radius: 27px;
+        margin-bottom: 2.15rem;
+    }
+    .portfolio .portfolio-images-row .portfolio-image-box img{
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .portfolio{
+        padding: 4rem 5% 3rem 5%;
+    }
+    .portfolio .portfolio-images-row .portfolio-image-box{
+        padding: 1.4rem;
+        border-radius: 25px;
+        margin-bottom: 1.95rem;
+    }
+    .portfolio .portfolio-images-row .portfolio-image-box img{
+        border-radius: 14px;
+    }
+}
 /* Portfolio End */
