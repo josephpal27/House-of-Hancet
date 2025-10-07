@@ -682,8 +682,8 @@ footer .foot-content .foot-form button:hover{
 /* Back to Top Btn Start */
 .back-to-top{
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 1rem;
+  right: 1rem;
   width: 60px;
   height: 60px;
   border: none;
@@ -737,16 +737,16 @@ footer .foot-content .foot-form button:hover{
 @media screen and (min-width: 1230px) and (max-width: 1399px){
   .back-to-top{
     scale: 0.7;
-    bottom: 1.1rem;
-    right: 1.1rem;
+    bottom: 0.8rem;
+    right: 0.8rem;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px){
   .back-to-top{
     scale: 0.6;
-    bottom: 0.8rem;
-    right: 0.8rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
   }
 }
 /* Back to Top Btn End */
