@@ -85,7 +85,7 @@
 
 /* Our Process Start */
 .our-process{
-    padding: 5rem 5%;
+    padding: 5rem 5% 5.5rem 5%;
     background: linear-gradient(to right, #fff 47%, #eacdab 100%);
     display: flex;
     justify-content: space-between;
@@ -179,6 +179,99 @@
 
 .our-process-right{
     width: 38%;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .our-process{
+        padding: 4.5rem 5% 5rem 5%;
+    }
+    .our-process-left h2{
+        font-size: calc(4rem + 0.5vw);
+    }
+    .our-process-left p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .our-process-box{
+        padding-bottom: 4.5rem;
+    }
+    .our-process-box .content-card{
+        padding: 1.3rem;
+    }
+    .our-process-box .content-card h3{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .our-process-box .content-card .content-desc{
+        margin-top: 1.3rem;
+    }
+    .our-process-box .content-card .content-desc p{
+        font-size: calc(0.55rem + 0.5vw);
+        line-height: 1.7;
+    }
+
+    #our-process-box-1{
+        margin-top: 4rem;
+    }
+
+    #our-process-box-2{
+        margin-top: 3rem;
+    }
+
+    #our-process-box-3{
+        padding-bottom: 14rem;
+        margin-top: 1rem;
+    }
+
+    #our-process-box-4{
+        padding-bottom: 12.5rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px){
+    .our-process{
+        padding: 4rem 5% 4.5rem 5%;
+    }
+    .our-process-left h2{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .our-process-left p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .our-process-box{
+        padding-bottom: 4rem;
+    }
+    .our-process-box .content-card{
+        padding: 1.1rem;
+    }
+    .our-process-box .content-card h3{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .our-process-box .content-card .content-desc{
+        margin-top: 1.2rem;
+    }
+    .our-process-box .content-card .content-desc p{
+        font-size: calc(0.49rem + 0.5vw);
+        line-height: 1.65;
+    }
+
+    #our-process-box-1{
+        margin-top: 3rem;
+    }
+
+    #our-process-box-2{
+        margin-top: 3rem;
+    }
+
+    #our-process-box-3{
+        padding-bottom: 12rem;
+        margin-top: 0.7rem;
+    }
+
+    #our-process-box-4{
+        padding-bottom: 11rem;
+        margin-top: 4rem;
+    }
 }
 /* Our Process End */
 
