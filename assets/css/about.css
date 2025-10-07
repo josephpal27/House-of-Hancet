@@ -376,4 +376,33 @@
 .get-in-touch button:hover{
     background-color: #907555;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .get-in-touch{
+        padding: 5.5rem 5%;
+    }
+    .get-in-touch p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .get-in-touch button{
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 0.55rem 1.8rem;
+        margin-top: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px){
+    .get-in-touch{
+        padding: 5rem 5%;
+    }
+    .get-in-touch p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .get-in-touch button{
+        font-size: calc(0.55rem + 0.5vw);
+        padding: 0.5rem 1.6rem;
+        margin-top: 1rem;
+    }
+}
 /* Get In Touch End */
