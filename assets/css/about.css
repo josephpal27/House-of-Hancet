@@ -38,10 +38,109 @@
 }
 .about-banner .banner-content .banner-desc p{
     color: #fff;
-    font-size: calc(0.6rem + 0.5vw);
+    font-size: calc(0.65rem + 0.5vw);
     font-family: Montserrat-Regular, sans-serif;
     font-weight: 300;
     text-align: center;
     margin: 0;
 }
 /* Banner End */
+
+/* Our Process Start */
+.our-process{
+    padding: 5rem 5%;
+    background: linear-gradient(to right, #fff 47%, #eacdab 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.our-process-left{
+    width: 59%;
+}
+.our-process-left h2{
+    color: #573823;
+    font-size: calc(4.5rem + 0.5vw);
+}
+.our-process-left p{
+    color: #573823;
+    font-size: calc(0.65rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 500;
+    width: 97%;
+}
+.our-process-box{
+    width: 100%;
+    position: relative;
+    padding-bottom: 5rem;
+}
+.our-process-box .content-card{
+    background-color: #9b8264;
+    width: 60%;
+    aspect-ratio: 1/1;
+    padding: 1.5rem;
+}
+.our-process-box .content-card h3{
+    color: #fff;
+    font-size: calc(1.3rem + 0.5vw);
+}
+.our-process-box .content-card .content-desc{
+    margin-top: 1.5rem;
+}
+.our-process-box .content-card .content-desc p{
+    color: #fff;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.our-process-box img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 53%;
+    box-shadow: rgba(0, 0, 0, 0.282) 0px 5px 10px;
+}
+
+#our-process-box-1{
+    margin-top: 4rem;
+}
+#our-process-box-1 .content-desc{
+    width: 78%;
+}
+
+#our-process-box-2{
+    margin-top: 3rem;
+}
+#our-process-box-2 .content-card{
+    margin-left: auto;
+}
+#our-process-box-2 img{
+    left: 0;
+}
+#our-process-box-2 .content-desc{
+    width: 76%;
+    margin-left: auto;
+}
+
+#our-process-box-3{
+    padding-bottom: 16rem;
+    margin-top: 1rem;
+}
+#our-process-box-3 .content-card,
+#our-process-box-4 .content-card{
+    width: 90%;
+}
+#our-process-box-3 img,
+#our-process-box-4 img{
+    width: 72%;
+}
+
+#our-process-box-4{
+    padding-bottom: 13rem;
+    margin-top: 4rem;
+}
+
+.our-process-right{
+    width: 38%;
+}
+/* Our Process End */
