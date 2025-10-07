@@ -45,3 +45,31 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // -------------------------------------------------------------------------------------------
+
+// Functionality For Get in Touch Buttons
+document.addEventListener("DOMContentLoaded", () => {
+  const footerForm = document.querySelector("footer .foot-form");
+
+  // About Page "Get in Touch" button
+  const getInTouchBtn = document.querySelector(".get-in-touch button");
+  if (getInTouchBtn) {
+    getInTouchBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      footerForm.scrollIntoView({ behavior: "smooth" });
+    });
+  }
+
+  // Services Page "Get in Touch" buttons
+  const getInTouchButtons = document.querySelectorAll(
+    ".services-banner-cards .get-in-touch-btn"
+  );
+  getInTouchButtons.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      footerForm.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+});
+
+// -------------------------------------------------------------------------------------------
+
