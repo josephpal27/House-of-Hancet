@@ -144,3 +144,14 @@
     width: 38%;
 }
 /* Our Process End */
+
+/* Quality Guarantee Start */
+.quality-guarantee{
+    background-image: url(../images/about/grey-bg.webp);
+    background-size: cover;
+    padding: 5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Quality Guarantee End */
