@@ -37,8 +37,7 @@
 
 /* Portfolio Start */
 .portfolio{
-    padding: 5rem 5%;
-    /* background-color: #6e4a32; */
+    padding: 5rem 5% 4rem 5%;
     background: linear-gradient(to bottom right, #68462f, #382112);
 }
 .portfolio .portfolio-images-row{
