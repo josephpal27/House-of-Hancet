@@ -327,6 +327,67 @@ h1, h2, h3, h4, h5, h6 {
         font-size: calc(2.5rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .our-services{
+        padding: 1.5rem 1rem 12rem 1rem;
+        background-size: contain;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .our-services .beam-image img{
+        width: 80%;
+    }
+    .our-services .our-services-cards-row{
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+    .our-services-cards-row .service-card{
+        width: 48.2%;
+        padding: 0.7rem;
+        border-radius: 15px;
+        flex-direction: column;
+        margin-bottom: 0.8rem;
+    }
+    .our-services-cards-row .service-card .card-content{
+        width: 100%;
+    }
+    .our-services-cards-row .service-card .card-content span{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .our-services-cards-row .service-card .card-content p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
+    .our-services-cards-row .service-card .card-image{
+        width: 100%;
+        margin-top: 0.8rem;
+    }
+    .our-services-cards-row .service-card .card-image img{
+        width: 60%;
+    }
+    .our-services-cards-row .service-card:nth-child(3) .card-image img{
+        width: 68%;
+        margin-left: -7px;
+    }
+    .our-services-cards-row .service-card:nth-child(4) .card-image img{
+        margin-bottom: -5px;
+    }
+    .our-services-content h2{
+        margin-top: 0;
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .our-services-content span{
+        font-size: calc(1.6rem + 0.5vw);
+        margin-top: -0.7rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .our-services{
+        padding: 1.5rem 1rem 14rem 1rem;
+    }
+}
 /* Our Services End */
 
 /* Gallery Start */
@@ -792,5 +853,11 @@ footer .foot-content .foot-form button:hover{
     bottom: 0.5rem;
     right: 0.5rem;
   }
+}
+
+@media screen and (max-width: 768px) {
+    .back-to-top{
+      display: none;
+    }
 }
 /* Back to Top Btn End */
