@@ -466,6 +466,31 @@
         width: 97%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .quality-guarantee{
+        background-size: contain;
+        padding: 2rem 0 0 0;
+        flex-direction: column-reverse;
+    }
+    .quality-guarantee .quality-image{
+        width: 100%;
+    }
+    .quality-guarantee .quality-content{
+        width: 100%;
+        padding: 0 1rem 0.8rem 1rem;
+    }
+    .quality-guarantee .quality-content h4{
+        font-size: calc(2rem + 0.5vw);
+        text-align: start;
+    }
+    .quality-guarantee .quality-content p{
+        font-size: calc(0.82rem + 0.5vw);
+        text-align: start;
+        margin-top: 0.2rem;
+        width: 100%;
+    }
+}
 /* Quality Guarantee End */
 
 /* Get In Touch Start */
