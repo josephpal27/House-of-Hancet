@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // -------------------------------------------------------------------------------------------
 
-// Slider Cards Mobile View
+// Home Page Gallery Slider In Mobile View
 const mobSwiper = new Swiper(".gallery-mobile-slider", {
   slidesPerView: 1,
   loop: true,
@@ -98,3 +98,4 @@ const mobSwiper = new Swiper(".gallery-mobile-slider", {
 // Make sure autoplay starts even if something interrupted it
 mobSwiper.autoplay.start();
 
+// -------------------------------------------------------------------------------------------
