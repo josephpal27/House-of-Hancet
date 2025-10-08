@@ -73,3 +73,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // -------------------------------------------------------------------------------------------
 
+// Slider Cards Mobile View
+const mobSwiper = new Swiper(".gallery-mobile-slider", {
+  slidesPerView: 1,
+  loop: true,
+  speed: 600,
+  grabCursor: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  breakpoints: {
+    992: { slidesPerView: 1 },
+    768: { slidesPerView: 1 },
+    480: { slidesPerView: 1 },
+    0: { slidesPerView: 1 }
+  }
+});
+
+// Make sure autoplay starts even if something interrupted it
+mobSwiper.autoplay.start();
+
