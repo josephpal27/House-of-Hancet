@@ -127,6 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     padding: 10rem 5% 0 5%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.056) 40%, rgba(0, 0, 0, 0.505) 100%);
 }
 .home-banner .banner-content h1{
     text-align: end;
