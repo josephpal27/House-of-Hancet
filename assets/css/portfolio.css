@@ -104,11 +104,11 @@
         padding: 2rem 1rem 1.5rem 1rem;
     }
     .portfolio .portfolio-images-row .portfolio-image-box{
-        width: 48.2%;
-        padding: 0.7rem;
+        width: 100%;
+        padding: 0.9rem;
         border-radius: 15px;
         box-shadow: #d48c5c 4px 4px 10px 0px inset, #face75 -4px -4px 10px 1px inset;
-        margin-bottom: 0.9rem;
+        margin-bottom: 1rem;
     }
     .portfolio .portfolio-images-row .portfolio-image-box img{
         border-radius: 10px;
