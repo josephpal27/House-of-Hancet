@@ -871,6 +871,51 @@ footer .foot-content .foot-form button:hover{
         padding: 0.55rem 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    footer{
+        padding: 2rem 1rem 3rem 1rem;
+    }
+    footer .foot-logo img{
+        width: 100px;
+    }
+    footer .foot-content{
+        margin-top: 2.2rem;
+    }
+    footer .foot-content .content-desc{
+        width: 100%;
+    }
+    footer .foot-content .content-desc h4{
+        font-size: calc(1.7rem + 0.5vw);
+        margin-bottom: 1rem;
+    }
+    footer .foot-content .content-desc p,
+    footer .foot-content .content-desc a{
+        font-size: calc(0.78rem + 0.5vw);
+    }
+    footer .foot-content .foot-form{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    footer .foot-content .foot-form #two-inputs{
+        gap: 0.6rem;
+    }
+    footer .foot-content .foot-form .input-box{
+        margin-bottom: 0.8rem;
+    }
+    footer .foot-content .foot-form label{
+        font-size: calc(0.78rem + 0.5vw);
+        margin-bottom: 6px;
+    }
+    footer .foot-content .foot-form input,
+    footer .foot-content .foot-form textarea{
+        font-size: calc(0.75rem + 0.5vw);
+        padding: 0.65rem 0.5rem;
+    }
+    footer .foot-content .foot-form button{
+        font-size: calc(0.78rem + 0.5vw);
+    }
+}
 /* Footer End */
 
 /* Back to Top Btn Start */
