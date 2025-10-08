@@ -383,6 +383,19 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .our-process-box{
+        padding-bottom: 9rem;
+    }
+    #our-process-box-3{
+        padding-bottom: 9rem;
+    }
+
+    #our-process-box-4{
+        padding-bottom: 9rem;
+    }
+}
 /* Our Process End */
 
 /* Quality Guarantee Start */
