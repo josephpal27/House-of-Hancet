@@ -555,4 +555,19 @@
         margin-top: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .get-in-touch{
+        padding: 3rem 1rem;
+    }
+    .get-in-touch p{
+        font-size: calc(0.8rem + 0.5vw);
+        width: 100%;
+    }
+    .get-in-touch button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.6rem 1.8rem;
+        margin-top: 0.8rem;
+    }
+}
 /* Get In Touch End */
