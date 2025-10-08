@@ -33,6 +33,16 @@
         font-size: calc(4rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio-banner{
+        height: auto;
+    }
+    .portfolio-banner .banner-content h1{
+        font-size: calc(2.5rem + 0.5vw);
+        margin-top: 2rem;
+    }
+}
 /* Banner End */
 
 /* Portfolio Start */
@@ -86,6 +96,22 @@
     }
     .portfolio .portfolio-images-row .portfolio-image-box img{
         border-radius: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio{
+        padding: 2rem 1rem 1.5rem 1rem;
+    }
+    .portfolio .portfolio-images-row .portfolio-image-box{
+        width: 48.2%;
+        padding: 0.7rem;
+        border-radius: 15px;
+        box-shadow: #d48c5c 4px 4px 10px 0px inset, #face75 -4px -4px 10px 1px inset;
+        margin-bottom: 0.9rem;
+    }
+    .portfolio .portfolio-images-row .portfolio-image-box img{
+        border-radius: 10px;
     }
 }
 /* Portfolio End */
