@@ -91,7 +91,7 @@
     }
     .about-banner .banner-content{
         position: relative;
-        padding: 2rem 1rem 2.5rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
     .about-banner .banner-content h1{
         color: #573823;
@@ -303,6 +303,84 @@
     #our-process-box-4{
         padding-bottom: 11rem;
         margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-process{
+        padding: 1.7rem 1rem 3rem 1rem;
+        background: linear-gradient(to right, #fff 45%, #eacdab 100%);
+    }
+    .our-process-left{
+        width: 100%;
+    }
+    .our-process-left h2{
+        font-size: calc(2.2rem + 0.5vw);
+        font-weight: 550;
+    }
+    .our-process-left p{
+        font-size: calc(0.82rem + 0.5vw);
+        font-weight: 500;
+        width: 100%;
+    }
+    .our-process-box{
+        padding-bottom: 10rem;
+    }
+    .our-process-box .content-card{
+        width: 100%;
+        padding: 1rem;
+    }
+    .our-process-box .content-card h3{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .our-process-box .content-card .content-desc{
+        margin-top: 1rem;
+    }
+    .our-process-box .content-card .content-desc p{
+        font-size: calc(0.75rem + 0.5vw);
+        line-height: 1.7;
+    }
+    .our-process-box img{
+        width: 70%;
+    }
+
+    #our-process-box-1{
+        margin-top: 2rem;
+    }
+    #our-process-box-1 .content-desc{
+        width: 100%;
+    }
+
+    #our-process-box-2{
+        margin-top: 2.5rem;
+    }
+    #our-process-box-2 .content-desc{
+        width: 100%;
+    }
+
+    #our-process-box-3{
+        padding-bottom: 10rem;
+        margin-top: 2.5rem;
+    }
+    #our-process-box-3 .content-card,
+    #our-process-box-4 .content-card{
+        width: 100%;
+    }
+    #our-process-box-3 img,
+    #our-process-box-4 img{
+        width: 70%;
+    }
+
+    #our-process-box-4{
+        padding-bottom: 10rem;
+        margin-top: 2.5rem;
+    }
+    #our-process-box-4 img{
+        left: 0;
+    }
+
+    .our-process-right{
+        width: 100%;
     }
 }
 /* Our Process End */
