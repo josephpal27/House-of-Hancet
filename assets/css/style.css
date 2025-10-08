@@ -95,6 +95,21 @@ h1, h2, h3, h4, h5, h6 {
     }
     #mobileMenu{
         width: 75%;
+        background-color: #83633c;
+    }
+    #mobileMenu .navbar-brand img{
+        width: 90px;
+    }
+    #mobileMenu .nav-link{
+        color: #fff;
+        font-size: calc(0.9rem + 0.5vw);
+        font-family: Montserrat-Regular, sans-serif;
+        font-weight: 550;
+        margin: 0.5rem 0;
+        width: max-content;
+    }
+    #mobileMenu .nav-link.active{
+        border-bottom: 2px solid #fff;
     }
 }
 /* Navbar End */
@@ -156,6 +171,35 @@ h1, h2, h3, h4, h5, h6 {
         font-size: calc(0.5rem + 0.5vw);
         margin-top: 1.3rem;
         width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-banner .banner-content{
+        padding: 4rem 1rem 0 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        background-color: #00000043;
+    }
+    .home-banner .banner-content h1{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .home-banner .banner-content h1 br{
+        display: none;
+    }
+    .home-banner .banner-content p{
+        font-size: calc(0.8rem + 0.5vw);
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        margin-top: 0.3rem;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .home-banner .banner-content p{
+        width: 80%;
     }
 }
 /* Banner End */
