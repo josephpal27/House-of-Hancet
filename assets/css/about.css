@@ -81,6 +81,37 @@
         font-size: calc(0.55rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about-banner{
+        height: auto;
+    }
+    .about-banner img{
+        width: 100%;
+    }
+    .about-banner .banner-content{
+        position: relative;
+        padding: 2rem 1rem 2.5rem 1rem;
+    }
+    .about-banner .banner-content h1{
+        color: #573823;
+        font-size: calc(2rem + 0.5vw);
+        font-weight: 600;
+        margin-top: 0;
+    }
+    .about-banner .banner-content h1 span{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .about-banner .banner-content .banner-desc{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 13px;
+        margin-top: 0.5rem;
+    }
+    .about-banner .banner-content .banner-desc p{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
 /* Banner End */
 
 /* Our Process Start */
@@ -90,6 +121,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .our-process-left{
     width: 59%;
@@ -283,6 +315,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .quality-guarantee .quality-image{
     width: 58%;
@@ -352,6 +385,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .get-in-touch p{
     color: #fff;
