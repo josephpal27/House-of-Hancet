@@ -516,6 +516,33 @@ h1, h2, h3, h4, h5, h6 {
         transform: translateX(3px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .gallery{
+        padding: 1.5rem 1rem 2rem 1rem;
+    }
+    .gallery h3{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .gallery .gallery-images{
+        display: none;
+    }
+    .gallery p{
+        width: 100%;
+        font-size: calc(0.8rem + 0.5vw);
+        margin: 5rem auto 0 auto;
+    }
+    .gallery p br{
+        display: none;
+    }
+    .gallery button{
+        font-size: calc(0.75rem + 0.5vw);
+        margin: 0.8rem auto 0 auto;
+    }
+    .gallery button i{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+}
 /* Gallery End */
 
 /* Features Start */
