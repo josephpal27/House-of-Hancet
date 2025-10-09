@@ -167,84 +167,50 @@
         padding: 0 1rem;
     }
     .services-banner-content{
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        min-height: auto;
     }
     .services-banner-content h1{
-        color: #fff;
-        font-size: calc(4.5rem + 0.5vw);
+        font-size: calc(2.1rem + 0.5vw);
+        margin-top: 8rem;
     }
     .services-banner-content p{
-        color: #fff;
-        font-size: calc(0.6rem + 0.5vw);
-        font-family: Montserrat-Regular, sans-serif;
-        font-weight: 300;
-        letter-spacing: 1px;
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: -3px;
     }
 
     .services-banner-cards{
-        padding: 0 0 15rem 0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        padding: 4rem 0 15rem 0;
     }
     .services-banner-cards .serv-card{
-        width: 23%;
-        padding: 1.7rem;
-        background: rgba(0, 0, 0, 0.155);
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px); /* safari support */
-        border-radius: 40px;
-        box-shadow: #d48c5c 5px 5px 20px 0px inset, #face75 -5px -5px 20px 1px inset;
-        color: #fff;
-        text-align: center;
-        position: relative;
+        width: 100%;
+        padding: 1.2rem;
+        border-radius: 22px;
+        box-shadow: #d48c5c 4px 4px 14px 0px inset, #face75 -4px -4px 14px 1px inset;
+        margin-bottom: 3.5rem;
     }
     .services-banner-cards .serv-card img{
-        width: 100%;
-        border-radius: 10px;
-        scale: 1.02;
+        scale: 1.015;
+        border-radius: 15px;
     }
     .services-banner-cards .serv-card h2{
-        margin-top: 2rem;
+        margin-top: 1.2rem;
         font-size: calc(1.2rem + 0.5vw);
     }
+    .services-banner-cards .serv-card h2 br{ 
+        display: none;
+    }
     .services-banner-cards .serv-card span{
-        display: block;
-        margin-top: 1rem;
-        font-size: calc(0.3rem + 0.5vw);
-        line-height: normal;
-        font-family: Montserrat-Regular, sans-serif;
+        margin-top: 0.6rem;
+        font-size: calc(0.75rem + 0.5vw);
     }
     .services-banner-cards .serv-card p{
-        margin-top: 1rem;
-        font-size: calc(0.26rem + 0.5vw);
-        font-family: Montserrat-Regular, sans-serif;
-        font-weight: 300;
-        font-style: italic;
-    }
-    .services-banner-cards .serv-card .btn-row{
-        width: 100%;
-        position: absolute;
-        bottom: -1.3rem;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
+        margin-top: 0.8rem;
+        font-size: calc(0.67rem + 0.5vw);
     }
     .services-banner-cards .serv-card .btn-row button{
-        background-color: #573823;
-        border: none;
-        padding: 0.8rem 1rem;
-        color: #fff;
-        font-size: calc(0.23rem + 0.5vw);
-        font-family: Montserrat-Regular, sans-serif;
-        border-radius: 15px;
-        box-shadow: #dcdcdcc4 1px 1px 2px 0px inset, #2b2b2bce -1.5px -1.5px 2px 0px inset;
-        transition: all 0.3s ease;
+        padding: 0.75rem 1.1rem;
+        font-size: calc(0.65rem + 0.5vw);
+        border-radius: 17px;
     }
 }
 /* Banner End */
