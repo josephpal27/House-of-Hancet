@@ -100,7 +100,7 @@ mobSwiper.autoplay.start();
 
 // -------------------------------------------------------------------------------------------
 
-// Functionality For Sticky Navbar in Mobilre View
+// Functionality For Sticky Navbar in Mobile View
 document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar");
 
