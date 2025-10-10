@@ -44,14 +44,26 @@
     text-align: center;
     position: relative;
 }
+.services-banner-cards .serv-card:hover{
+    background: rgba(0, 0, 0, 0.338);
+    box-shadow: #ff9955 5px 5px 20px 0px inset, #e8b040 -5px -5px 20px 1px inset;
+}
 .services-banner-cards .serv-card img{
     width: 100%;
     border-radius: 10px;
     scale: 1.02;
+    transition: scale 0.5s ease;
+}
+.services-banner-cards .serv-card:hover img{
+    scale: 1.04;
 }
 .services-banner-cards .serv-card h2{
     margin-top: 2rem;
     font-size: calc(1.2rem + 0.5vw);
+    transition: color 0.3s ease;
+}
+.services-banner-cards .serv-card:hover h2{
+    color: #e8b040;
 }
 .services-banner-cards .serv-card span{
     display: block;
