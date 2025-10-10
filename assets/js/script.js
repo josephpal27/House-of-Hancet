@@ -99,3 +99,23 @@ const mobSwiper = new Swiper(".gallery-mobile-slider", {
 mobSwiper.autoplay.start();
 
 // -------------------------------------------------------------------------------------------
+
+// Functionality For Sticky Navbar in Mobilre View
+document.addEventListener("DOMContentLoaded", function () {
+  const navbar = document.querySelector(".navbar");
+
+  window.addEventListener("scroll", function () {
+    // Check viewport width first
+    if (window.innerWidth <= 768) {
+      if (window.scrollY > window.innerHeight * 0.5) { // after ~50vh scroll
+        navbar.classList.add("sticky-nav");
+      } else {
+        navbar.classList.remove("sticky-nav");
+      }
+    } else {
+      navbar.classList.remove("sticky-nav"); // reset for larger screens
+    }
+  });
+});
+
+// -------------------------------------------------------------------------------------------
