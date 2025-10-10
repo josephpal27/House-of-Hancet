@@ -796,7 +796,7 @@ footer .foot-content .foot-form input[type="number"]::-webkit-inner-spin-button{
 }
 footer .foot-content .foot-form textarea{
     resize: none;
-    height: 7rem;
+    height: 8rem;
 }
 footer .foot-content .foot-form button{
     background-color: #9d794d;
